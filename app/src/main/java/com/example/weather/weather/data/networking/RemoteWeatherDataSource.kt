@@ -16,7 +16,7 @@ class RemoteWeatherDataSource(
     private val httpClient: HttpClient
 ): WeatherDataSource {
 
-    private val apiKey = "04b4deec6762deb0c320c8ac124805f2"
+    private val apiKey = ""
 
     override suspend fun getWeather(
         lat: Double,
